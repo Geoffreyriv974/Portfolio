@@ -4,28 +4,58 @@
     <meta charset="UTF-8">
     <title>Geoffrey Riviere</title>
     <link rel="icon" href="image/bussiness-man.png" type="image/png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/competence.css">
+    <link rel="stylesheet" href="css/project.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/experience.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"  rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" referrerpolicy="no-referrer"/>
 </head>
 <body>
 <header id="header">
-    <div class="site">
-        <ul class="menu">
-            <li><a href="#header" class="nav-link">Accueil</a></li>
-            <li><a href="#partie2" class="nav-link">Compétences</a></li>
-            <li><a href="#partie3" class="nav-link">Projets</a></li>
-            <li><a href="#partie4" class="nav-link">Éxpériences</a></li>
-            <li><a href="contact.php" class="nav-link">Contacter</a></li>
+    <div class="site position-fixed z-index">
+        <ul class="flex flex-wrap -mb-px text-sm font-medium text-center text-gray-500 dark:text-gray-400 menu border-gray-200 dark:border-gray-700">
+            <li class="me-2">
+                <a href="#header" class="inline-flex items-center justify-center p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group">
+                    <svg class="w-4 h-4 me-2 text-gray-400 group-hover:text-gray-500 dark:text-gray-500 dark:group-hover:text-gray-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M10 0a10 10 0 1 0 10 10A10.011 10.011 0 0 0 10 0Zm0 5a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm0 13a8.949 8.949 0 0 1-4.951-1.488A3.987 3.987 0 0 1 9 13h2a3.987 3.987 0 0 1 3.951 3.512A8.949 8.949 0 0 1 10 18Z"/>
+                    </svg>Profil
+                </a>
+            </li>
+            <li class="me-2">
+                <a href="#partie2" class="inline-flex items-center justify-center p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group" aria-current="page">
+                    <svg class="w-4 h-4 me-2 text-gray-400 group-hover:text-gray-500 dark:text-gray-500 dark:group-hover:text-gray-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 18">
+                        <path d="M6.143 0H1.857A1.857 1.857 0 0 0 0 1.857v4.286C0 7.169.831 8 1.857 8h4.286A1.857 1.857 0 0 0 8 6.143V1.857A1.857 1.857 0 0 0 6.143 0Zm10 0h-4.286A1.857 1.857 0 0 0 10 1.857v4.286C10 7.169 10.831 8 11.857 8h4.286A1.857 1.857 0 0 0 18 6.143V1.857A1.857 1.857 0 0 0 16.143 0Zm-10 10H1.857A1.857 1.857 0 0 0 0 11.857v4.286C0 17.169.831 18 1.857 18h4.286A1.857 1.857 0 0 0 8 16.143v-4.286A1.857 1.857 0 0 0 6.143 10Zm10 0h-4.286A1.857 1.857 0 0 0 10 11.857v4.286c0 1.026.831 1.857 1.857 1.857h4.286A1.857 1.857 0 0 0 18 16.143v-4.286A1.857 1.857 0 0 0 16.143 10Z"/>
+                    </svg>Mes compétences
+                </a>
+            </li>
+            <li class="me-2">
+                <a href="#partie3" class="inline-flex items-center justify-center p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group">
+                    <svg class="w-4 h-4 me-2 text-gray-400 group-hover:text-gray-500 dark:text-gray-500 dark:group-hover:text-gray-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M5 11.424V1a1 1 0 1 0-2 0v10.424a3.228 3.228 0 0 0 0 6.152V19a1 1 0 1 0 2 0v-1.424a3.228 3.228 0 0 0 0-6.152ZM19.25 14.5A3.243 3.243 0 0 0 17 11.424V1a1 1 0 0 0-2 0v10.424a3.227 3.227 0 0 0 0 6.152V19a1 1 0 1 0 2 0v-1.424a3.243 3.243 0 0 0 2.25-3.076Zm-6-9A3.243 3.243 0 0 0 11 2.424V1a1 1 0 0 0-2 0v1.424a3.228 3.228 0 0 0 0 6.152V19a1 1 0 1 0 2 0V8.576A3.243 3.243 0 0 0 13.25 5.5Z"/>
+                    </svg>Mes projets
+                </a>
+            </li>
+            <li class="me-2">
+                <a href="#partie4" class="inline-flex items-center justify-center p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-4 h-4 me-2 text-gray-400 group-hover:text-gray-500 dark:text-gray-500 dark:group-hover:text-gray-300" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0m-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0z"/>
+                    </svg>Mes expériences
+                </a>
+            </li>
+            <li class="me-2">
+                <a href="contact.php" class="inline-flex items-center justify-center p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group">
+                    <svg class="w-4 h-4 me-2 text-gray-400 group-hover:text-gray-500 dark:text-gray-500 dark:group-hover:text-gray-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 20">
+                        <path d="M16 1h-3.278A1.992 1.992 0 0 0 11 0H7a1.993 1.993 0 0 0-1.722 1H2a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2Zm-3 14H5a1 1 0 0 1 0-2h8a1 1 0 0 1 0 2Zm0-4H5a1 1 0 0 1 0-2h8a1 1 0 1 1 0 2Zm0-5H5a1 1 0 0 1 0-2h2V2h4v2h2a1 1 0 1 1 0 2Z"/>
+                    </svg>Contacts
+                </a>
+            </li>
         </ul>
-        <div class="menu-burger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
     </div>
     <img src="image/bussiness-man.png" alt="mon visage" id="my">
     <div id="my_name">
@@ -114,100 +144,62 @@
     </section>
     <section id="partie3">
         <h1 class="name_partie"><strong>Mes projets</strong></h1>
-        <h2 class="name_project_type" id="pythonTitle">Python</h2>
-        <div id="carousel_project_python" class="carousel slide carouselExampleCaptions" style="display: none">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="image/calculator.png" class="d-block picture_project" alt="calculatrice">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Calculatrice</h5>
-                        <a href="https://github.com/Geoffreyriv974/Calculatrice" class="btn_project">Découvrir</a>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
-                            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
-                        </svg>
-                    </div>
+        <div class="tabs">
+            <div class="tab-header">
+                <div class="active"  onclick="changeTab(0)">
+                    <i></i> Python
                 </div>
-                <div class="carousel-item">
-                    <img src="image/time-bomb.png" class="d-block picture_project" alt="démineur">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Démineur</h5>
-                        <a href="https://github.com/Geoffreyriv974/Demineur" class="btn_project">Découvrir</a>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
-                            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
-                        </svg>
-                    </div>
+                <div  onclick="changeTab(1)">
+                    <i></i> C++
+                </div>
+                <div  onclick="changeTab(2)">
+                    <i></i> Web
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel_project_python" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel_project_python" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+            <div class="tab-indicator"></div>
+            <div class="tab-body">
+                <div class="project-info active">
+                    <h5>Calculatrice</h5>
+                    <img src="image/calculator.png" class="picture_project" alt="calculatrice"/>
+                    <div class="icon-project">
+                        <a href="project/python/calculatrice.exe">
+                            <i class="fa-solid fa-eye"></i>
+                        </a>
+                        <a href="project/python/calculatrice.zip">
+                            <i class="fa-solid fa-download"></i>
+                        </a>
+                        <i class="fa-solid fa-info"></i>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h5>Dungeon and Monsters</h5>
+                    <img src="image/donjon.png" class="picture_project" alt="donjon"/>
+                    <div class="icon-project">
+                        <a href="project/c++/Dungeon_and_monsters.exe">
+                            <i class="fa-solid fa-eye"></i>
+                        </a>
+                        <a href="project/c++/Dungeon%20and%20monsters.zip">
+                            <i class="fa-solid fa-download"></i>
+                        </a>
+                        <i class="fa-solid fa-info"></i>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h5>Site Auto-Ecole</h5>
+                    <img src="image/sport-car.png" class="picture_project" alt="voiture"/>
+                    <div class="icon-project">
+                        <a href="project/web/site_auto_école/index.html">
+                            <i class="fa-solid fa-eye"></i>
+                        </a>
+                        <a href="project/web/site_auto_école.zip">
+                            <i class="fa-solid fa-download"></i>
+                        </a>
+                        <i class="fa-solid fa-info"></i>
+                    </div>
+                </div>
+            </div>
         </div>
-        <h2 class="name_project_type" id="webTitle">Web</h2>
-        <div id="carousel_project_web" class="carousel slide carouselExampleCaptions" style="display: none">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="image/sport-car.png" class="d-block picture_project" alt="voiture">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Auto-école de Mormal</h5>
-                        <a href="web/site_auto_école/index.html" class="btn_project">Découvrir</a>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
-                            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
-                        </svg>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel_project_web" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel_project_web" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-        <h2 class="name_project_type" id="C++Title">C++</h2>
-        <div id="carousel_project_c++" class="carousel slide carouselExampleCaptions" style="display: none">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="image/donjon.png" class="d-block picture_project" alt="donjon">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Dungeon and Monsters</h5>
-                        <a href="c++/Dungeon_and_monsters.exe" class="btn_project">Découvrir</a>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
-                            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
-                        </svg>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel_project_web" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel_project_web" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-        <img src="image/Cloudy.svg" id="img_cloudy_pro">
+        <img src="image/Cloudy.svg" id="img_cloudy_pro" alt="cloudy">
     </section>
     <section id="partie4">
         <h1 class="name_partie_spe"><strong>Mes expériences</strong></h1>
@@ -311,5 +303,7 @@
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 <script src="global.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="../path/to/flowbite/dist/flowbite.min.js"></script>
 </body>
 </html>

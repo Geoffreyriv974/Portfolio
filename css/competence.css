@@ -1,0 +1,55 @@
+
+/* partie pour les compétence */
+.case_competence{
+    display: flex;
+    justify-content: space-around;
+}
+.card_page{
+    border: solid 3px white;
+    background: #1E3266;
+    border-radius: 20px;
+    padding: 2% 3%;
+    margin-bottom: 5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: background-color 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+.card_page:hover {
+    background-color: white;
+}
+.card_page:hover img,
+.card_page:hover .card-title{
+    display: none;
+}
+.text_overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.text_overlay h1{
+    color: #1E3266;
+    font-family: 'Roboto', sans-serif;
+}
+.card_page:hover .text_overlay{
+    opacity: 1;
+}
+.img_comp{
+    width: 80%;
+}
+.color_orange{color: orangered;}
+.color_blue{color: blue;}
+.color_purple{color: purple;}
+.color_yellow{color: yellowgreen;}
+.color_brown{color: brown;}
+.color_red{color: red;}
+.color_green{color: darkgreen;}

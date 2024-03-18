@@ -1,0 +1,474 @@
+body{
+    margin: 0;
+}
+
+header{
+    position: relative;
+}
+.header:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+#logo-entreprise{
+    width: 150px;
+}
+
+.partie{
+    margin: 10px 0 10px 0;
+}
+
+#facade{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-top: 55px;
+}
+
+#voiture{
+    background-image: url("image/facade1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding-top: 40%;
+    margin-top: 55px;
+}
+
+.header_container{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.header_contact{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+.header_contact > * {
+    flex-grow: 1;
+}
+
+.téléphone,.mail{
+    width: 45%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+.téléphone{
+    justify-content: flex-end;
+    padding-right: 1%;
+}
+.mail{
+    justify-content: flex-start;
+    padding-left: 1%;
+}
+
+.h3_name{
+    font-size: 15px;
+    margin: 1% 0;
+}
+
+.ajout-perso{
+    margin: 0.5% 1% 0 0;
+}
+
+.modif_perso_btn{
+    margin: 10px 0 0 0;
+}
+
+.carousel{
+    margin: 5% 5%;
+    box-shadow: 0.5rem 0.5rem 1.5rem #888888;
+}
+
+.name_ecole{
+    color: red;
+    display: flex;
+    justify-content: center;
+    margin: 0 5% 50px 5%;
+    border: 2px solid red;
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px #888888;
+    font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+    .name_ecole {
+        margin: 0 10% 50px 10%;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .name_ecole {
+        margin: 0 20% 50px 20%;
+    }
+}
+
+.s1p2{
+    padding: 0 0 5% 0;
+}
+
+.h4_name{
+    font-size: 40px;
+}
+@media screen and (max-width: 768px) {
+    .h4_name {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .h4_name {
+        font-size: 20px;
+    }
+}
+
+main{
+    margin: 0;
+    background-image: url("image/image_de_fond.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container_white{
+    background-color: rgba(255,255,255,0.9);
+    width: 100%;
+    padding-top: 50px ;
+}
+
+.carousel_cote_white{
+    margin: 0 21%;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.7) 25%, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0.3) 75%, rgba(255,255,255,0) 100%);
+}
+.presentation_moniteur{
+    font-size: 1rem;
+    text-align: center;
+}
+
+.gray_page_price{
+    margin: 0 23%;
+    background-color: rgba(128,128,128,0.8);
+    display: flex;
+    justify-content: center;
+}
+.white_page_price{
+    margin: 0 23%;
+    background-color: rgba(255,255,255,0.9);
+    padding: 3% 0;
+}
+.white_page_price_img {
+    margin: 0 23%;
+    background-color: rgba(255,255,255,0.9);
+}
+
+.gray_page_price_bis{
+    margin: 0 23%;
+    background-color: rgba(128,128,128,0.8);
+    display: flex;
+    justify-content: center;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.white_page_price h6 {
+    margin: 3% 10%;
+}
+
+.white_page_price_img img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .white_page_price,
+    .white_page_price_bis,
+    .gray_page_price,
+    .gray_page_price_bis {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .white_page_price,
+    .white_page_price_bis,
+    .gray_page_price,
+    .gray_page_price_bis {
+        font-size: 20px;
+    }
+}
+
+a.btn-primary{
+    color: red;
+    background: white;
+    border: 2px solid red;
+    box-shadow: 2px 2px 10px #888888;
+    transition: background-color 0.8s ease;
+}
+a.btn-primary:hover{
+    color: white;
+    background: red;
+    border: 2px solid red;
+}
+
+
+.prix_permis h5{
+    color: white;
+}
+
+.containeur_card_grid {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.s2{
+    margin: 0 0 25px 0;
+}
+
+.card{
+    box-shadow: 2px 2px 10px #888888;
+    margin: 0 5% 5% 5%;
+}
+
+.card-text{
+    margin: 10px;
+}
+
+.containeur_auto_moto{
+    background-color: black;
+    color: white;
+    height: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s3{
+    background-color: white;
+    margin: 2% 0 0 0;
+}
+
+.petit_carré{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 110px;
+    height: 110px;
+    margin: 0 0 0 80px;
+    display: flex;
+    justify-content: center;
+    background-color: #E4E4E4;
+    transition: background-color 0.5s ease;
+    box-shadow: 2px 2px 10px #888888;
+}
+.square:hover{
+    background-color: red;
+}
+
+.info_petit_carré{
+    width: 270px;
+}
+
+.bi-global{
+    margin: 40px;
+    color: white;
+}
+
+.ecriture_carré{
+    margin: 0 0 25% 0;
+}
+
+.ecriture_carré h5{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.ecriture_carré p{
+    display: flex;
+    justify-content: center;
+}
+
+.google_maps{
+    display: inline-block;
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    padding: 10px 55px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 2px 2px 10px #888888;
+    transition: background-color 0.8s ease;
+}
+.google_maps:hover{
+    color: white;
+    background: red;
+}
+#google_maps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+footer h6{
+    display: flex;
+    justify-content: center;
+    padding: 0 0 2% 0;
+}
+
+.contact_fond {
+    background: white;
+    margin: 5% 15% 0 15%;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact_partie1_carré {
+    margin: 2%;
+}
+
+.info_petit_carré_contact {
+    display: flex;
+    flex-direction: row;
+}
+
+.ecriture_carré_contact {
+    padding: 0 5%;
+    margin: 5% 2% 2% 0;
+}
+
+.square_contact {
+    width: 110px;
+    height: 110px;
+    margin: 5% 0 2% 3%;
+    display: flex;
+    justify-content: center;
+    background-color: #E4E4E4;
+    transition: background-color 0.5s ease;
+    box-shadow: 2px 2px 10px #888888;
+}
+.square_contact:hover {
+    background-color: red;
+}
+
+.contact_formulaire {
+    max-width: 400px;
+    margin: 0;
+    padding: 7% 20%;
+}
+
+.contact_formulaire form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.contact_formulaire label {
+    font-weight: bold;
+}
+
+.contact_formulaire input[type="text"],
+.contact_formulaire input[type="email"],
+.contact_formulaire input[type="tel"],
+.contact_formulaire textarea {
+    width: 100%;
+    height: auto;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.contact_formulaire input[type="submit"] {
+    display: inline-block;
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    padding: 10px 55px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 2px 2px 10px #888888;
+    transition: background-color 0.8s ease;
+}
+
+.contact_formulaire input[type="submit"]:hover {
+    color: white;
+    background: red;
+}
+
+#btn_envoyer {
+    margin: 5% 0;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .contact_fond {
+        flex-direction: column;
+        margin: 5% 5%;
+    }
+
+    .contact_partie1_carré {
+        margin: 2% 0;
+    }
+
+    .contact_formulaire {
+        max-width: 100%;
+        margin-top: 20px;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contact_formulaire input[type="submit"] {
+        padding: 10px 25px;
+    }
+}
+
+.legal_mention {
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.legal_mention h6 {
+    display: flex;
+    align-items: center;
+    padding: 0.5% 0 0 0;
+}
+
+.legal_mention a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5% 0 0 0.5%;
+}
+.legal_mention a:hover {
+    color: red;
+}
+
+.legal_mention_text{
+    margin-top: 55px;
+    color: red;
+    background-color: rgba(255,255,255,0.9);
+    padding: 40px 10%;
+}
+
+.text_legal_mention{
+    background: white;
+    padding: 10px 10%;
+}

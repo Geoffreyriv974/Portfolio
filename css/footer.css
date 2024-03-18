@@ -1,0 +1,32 @@
+/* partie pour le bas de page */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1E3266;
+    padding: 20px;
+}
+
+.footer-partie {
+    display: flex;
+    align-items: center;
+}
+
+.footer-partie svg {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+#tel,
+#mail {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    white-space: nowrap;
+    font-size: 30px;
+}
+#tel:hover,
+#mail:hover {
+    color: blue;
+}

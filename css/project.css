@@ -1,0 +1,100 @@
+/* partie pour les projets*/
+.fa-solid {
+    border: solid 2px #1E3266;
+    color: #1E3266;
+    padding: 1rem 5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.fa-solid:hover {
+    background: #1E3266;
+    color: white;
+}
+
+.project-info {
+    text-align: center;
+}
+
+.project-info h5 {
+    font-size: 2em;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #1E3266;
+    font-weight: 700;
+}
+
+.picture_project{
+    margin: 0 auto;
+    max-width: 40%;
+}
+
+.icon-project {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+}
+.active {
+    width: 100%;
+}
+.tabs {
+    width: 700px;
+    height: 500px;
+    background: #f5f5f5;
+    padding: 20px 30px;
+    overflow: hidden;
+    border-radius: 50px;
+    box-shadow: 5px 10px 5px #ccc;
+    margin: 0 auto;
+}
+.tabs .tab-header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.tabs .tab-header > div {
+    width:calc(100% / 3);
+    text-align: center;
+    color: #888;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none;
+}
+.tabs .tab-header > div > i {
+    display: block;
+    margin-bottom: 5px;
+}
+.tabs .tab-header > div.active {
+    color: #1E3266;
+}
+.tabs .tab-indicator {
+    position: relative;
+    width: calc(100% / 3);
+    height: 5px;
+    background: #1E3266;
+    left: 0;
+    border-radius: 5px;
+    transition: all 500ms ease-in-out;
+}
+.tabs .tab-body {
+    position: relative;
+    height: calc(100% - 60px);
+    padding: 10px 5px;
+}
+.tabs .tab-body > div {
+    position: absolute;
+    top: -200%;
+    opacity: 0;
+    margin-top: 5px;
+    transform: scale(0.9);
+    transition: opacity 500ms ease-in-out 0ms, transform 500ms ease-in-out 0ms;
+}
+.tabs .tab-body > div.active {
+    top: 0;
+    opacity: 1;
+    transform: scale(1);
+    margin-top: 0;
+}
