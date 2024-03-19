@@ -20,6 +20,15 @@ header{
     transform: rotate(180deg);
 }
 
+.mes_sites{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 10px;
+    border-radius: 5px;
+}
+
 .bi-linkedin{
     color: darkblue;
     background-color: white;
