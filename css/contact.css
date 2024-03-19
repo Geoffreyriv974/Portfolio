@@ -93,12 +93,13 @@ main h1{
     background: #1E3266;
 }
 
-.contact-form h2{
+.contact-form h2 strong{
     color: white;
     font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: center;
-    margin: 2rem 0;
+    padding: 2rem 0;
+    font-size: 2rem;
 }
 
 .contact-form {
