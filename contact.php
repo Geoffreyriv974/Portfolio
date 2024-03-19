@@ -14,7 +14,7 @@
 </head>
 <body>
 <header>
-    <div class="site position-fixed z-index">
+    <div class="position-fixed z-index">
         <ul class="flex flex-wrap -mb-px text-sm font-medium text-center text-gray-500 dark:text-gray-400 menu border-gray-200 dark:border-gray-700">
             <li class="me-2">
                 <a href="index.php" class="inline-flex items-center justify-center p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group">
@@ -78,7 +78,9 @@
                         <textarea id="message" name="message" required placeholder="Ecrivez votre message..."></textarea>
                     </div>
                     <div class="form-group btn-mail">
-                        <button type="submit"><strong>Envoyer</strong></button>
+                        <button type="submit">
+                            <strong>Envoyer</strong>
+                        </button>
                     </div>
                 </form>
             </div>
@@ -100,6 +102,5 @@
     </div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-
 </body>
 </html>

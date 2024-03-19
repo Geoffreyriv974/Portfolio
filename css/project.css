@@ -17,11 +17,11 @@
 }
 
 .project-info h5 {
-    font-size: 2em;
-    margin-top: 10px;
+    font-size: 2rem;
     font-family: 'Roboto', sans-serif;
     color: #1E3266;
     font-weight: 700;
+    padding: 1rem 0;
 }
 
 .picture_project{
