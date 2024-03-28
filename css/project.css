@@ -1,5 +1,5 @@
 /* partie pour les projets*/
-.fa-solid {
+.icon-project .fa-solid {
     border: solid 2px #1E3266;
     color: #1E3266;
     padding: 1rem 5rem;
@@ -7,7 +7,7 @@
     cursor: pointer;
     transition: 0.5s;
 }
-.fa-solid:hover {
+.icon-project .fa-solid:hover {
     background: #1E3266;
     color: white;
 }
@@ -97,4 +97,31 @@
     opacity: 1;
     transform: scale(1);
     margin-top: 0;
+}
+.bouton {
+    position: absolute;
+    cursor: pointer;
+    top: 150px;
+}
+#g {
+    left: 0;
+    opacity: 0.4;
+    transform: rotate(270deg);
+    transition: all 0.3s ease;
+}
+#d {
+    right: 0;
+    opacity: 0.4;
+    transform: rotate(90deg);
+    transition: all 0.3s ease;
+}
+#g:hover {
+    transform:rotate(270deg) scale(1.1);
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+#d:hover {
+    transform:rotate(90deg) scale(1.1);
+    opacity: 1;
+    transition: all 0.3s ease;
 }

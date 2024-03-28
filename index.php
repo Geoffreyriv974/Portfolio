@@ -12,10 +12,18 @@
     <link rel="stylesheet" href="./css/responsive.css">
     <link rel="preconnect" href="./https://fonts.googleapis.com">
     <link rel="preconnect" href="./https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-bYKbhNf2hfw3nAPBNUv6WC+OUWVNcc3UmzB02vOw+WYiIdt6tu+oM5jcqsaXN0e2" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"  rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" referrerpolicy="no-referrer"/>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="./js/scroll.js"></script>
+    <script src="./js/project.js"></script>
+    <script src="./js/carousel.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
 </head>
 <body>
 <header id="header">
@@ -89,7 +97,9 @@
                         <li><strong><span class="color_orange">HTML</span></strong></li>
                         <li><strong><span class="color_blue">CSS</span></strong></li>
                         <li><strong><span class="color_purple">PHP</span></strong></li>
+                        <li><strong><span class="color_yellow">JavaScript</span></strong></li>
                         <li><strong><span class="color_blue">Symfony</span></strong></li>
+                        <li><strong><span class="color_">PrestaShop</span></strong></li>
                         <li><strong><span class="color_red">UI/UX</span></strong></li>
                     </ul>
                 </div>
@@ -159,18 +169,43 @@
             </div>
             <div class="tab-indicator"></div>
             <div class="tab-body">
-                <div class="project-info active">
-                    <h5>Calculatrice</h5>
-                    <img src="image/calculator.png" class="picture_project" alt="calculatrice"/>
-                    <div class="icon-project">
-                        <a href="project/python/calculatrice.exe">
-                            <i class="fa-solid fa-eye"></i>
-                        </a>
-                        <a href="project/python/calculatrice.zip">
-                            <i class="fa-solid fa-download"></i>
-                        </a>
-                        <i class="fa-solid fa-info"></i>
+                <div class="project-info active" id="carrousel">
+                    <div class="container active">
+                        <h5>Calculatrice</h5>
+                        <img src="image/calculator.png" class="picture_project" alt="calculatrice"/>
+                        <div class="icon-project">
+                            <a href="project/python/calculatrice.exe">
+                                <i class="fa-solid fa-eye"></i>
+                            </a>
+                            <a href="project/python/calculatrice.zip">
+                                <i class="fa-solid fa-download"></i>
+                            </a>
+                            <a href="https://github.com/Geoffreyriv974/Calculatrice">
+                                <i class="fa-solid fa-code"></i>
+                            </a>
+                        </div>
                     </div>
+                    <div class="container">
+                        <h5>Password-Générate</h5>
+                        <img src="image/la-cyber-securite.png" class="picture_project" alt="password"/>
+                        <div class="icon-project">
+                            <a href="project/python/calculatrice.exe">
+                                <i class="fa-solid fa-eye"></i>
+                            </a>
+                            <a href="project/python/password_generate.zip">
+                                <i class="fa-solid fa-download"></i>
+                            </a>
+                            <a href="https://github.com/Geoffreyriv974/Generate_Password">
+                                <i class="fa-solid fa-code"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="bouton" id="d" width="50" viewBox="0 0 512 512">
+                        <path d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="bouton" id="g" width="50" viewBox="0 0 512 512">
+                        <path d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z"/>
+                    </svg>
                 </div>
                 <div class="project-info">
                     <h5>Dungeon and Monsters</h5>
@@ -182,7 +217,9 @@
                         <a href="project/c++/Dungeon%20and%20monsters.zip">
                             <i class="fa-solid fa-download"></i>
                         </a>
-                        <i class="fa-solid fa-info"></i>
+                        <a href="https://github.com/Geoffreyriv974/Dungeon-of-Monsters">
+                            <i class="fa-solid fa-code"></i>
+                        </a>
                     </div>
                 </div>
                 <div class="project-info">
@@ -195,7 +232,9 @@
                         <a href="project/web/site_auto_école.zip">
                             <i class="fa-solid fa-download"></i>
                         </a>
-                        <i class="fa-solid fa-info"></i>
+                        <a href="https://github.com/Geoffreyriv974/Site-Auto-ecole">
+                            <i class="fa-solid fa-code"></i>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -302,10 +341,5 @@
         <a href="mailto:geoffrey.riviere@ecole-it.com" id="mail">geoffrey.riviere@ecole-it.com</a>
     </div>
 </footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-<script src="./js/scroll.js"></script>
-<script src="./js/project.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-<script src="../path/to/flowbite/dist/flowbite.min.js"></script>
 </body>
 </html>
