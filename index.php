@@ -99,7 +99,7 @@
                         <li><strong><span class="color_purple">PHP</span></strong></li>
                         <li><strong><span class="color_yellow">JavaScript</span></strong></li>
                         <li><strong><span class="color_blue">Symfony</span></strong></li>
-                        <li><strong><span class="color_">PrestaShop</span></strong></li>
+                        <li><strong><span class="color_pink">PrestaShop</span></strong></li>
                         <li><strong><span class="color_red">UI/UX</span></strong></li>
                     </ul>
                 </div>
@@ -144,10 +144,11 @@
                 <div class="card-body card_comp">
                     <h5 class="card-title">Outils</h5>
                     <ul class="text_overlay">
-                            <li><strong><span class="color_red">Figma</span></strong></li>
-                            <li><strong><span class="color_blue">Packet Tracer</span></strong></li>
-                            <li><strong><span class="color_orange">VmWare</span></strong></li>
+                        <li><strong><span class="color_red">Figma</span></strong></li>
+                        <li><strong><span class="color_blue">Packet Tracer</span></strong></li>
+                        <li><strong><span class="color_orange">VmWare</span></strong></li>
                         <li><strong><span class="color_brown">JetBrains</span></strong></li>
+                        <li><strong><span class="color_blue">GIT</span></strong></li>
                     </ul>
                 </div>
             </div>
@@ -166,6 +167,12 @@
                 <div  onclick="changeTab(2)">
                     <i></i> Web
                 </div>
+                <div  onclick="changeTab(3)">
+                    <i></i> JavaScript
+                </div>
+                <div  onclick="changeTab(4)">
+                    <i></i> Go
+                </div>
             </div>
             <div class="tab-indicator"></div>
             <div class="tab-body">
@@ -180,9 +187,17 @@
                             <a href="project/python/calculatrice.zip">
                                 <i class="fa-solid fa-download"></i>
                             </a>
-                            <a href="https://github.com/Geoffreyriv974/Calculatrice">
-                                <i class="fa-solid fa-code"></i>
-                            </a>
+                            <div class="button-container">
+                                <button id="myButton">
+                                    <i class="fa-solid fa-code"></i>
+                                </button>
+                                <div id="popup" class="popup pop-2">
+                                    <ul>
+                                        <li class="color_yellow">Python</li>
+                                        <li class="color_yellow">Tkinter</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="container">
@@ -195,9 +210,17 @@
                             <a href="project/python/password_generate.zip">
                                 <i class="fa-solid fa-download"></i>
                             </a>
-                            <a href="https://github.com/Geoffreyriv974/Generate_Password">
-                                <i class="fa-solid fa-code"></i>
-                            </a>
+                            <div class="button-container">
+                                <button id="myButton">
+                                    <i class="fa-solid fa-code"></i>
+                                </button>
+                                <div id="popup" class="popup pop-2">
+                                    <ul>
+                                        <li class="color_yellow">Python</li>
+                                        <li class="color_yellow">Tkinter</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <svg xmlns="http://www.w3.org/2000/svg" class="bouton" id="d" width="50" viewBox="0 0 512 512">
@@ -217,9 +240,16 @@
                         <a href="project/c++/Dungeon%20and%20monsters.zip">
                             <i class="fa-solid fa-download"></i>
                         </a>
-                        <a href="https://github.com/Geoffreyriv974/Dungeon-of-Monsters">
-                            <i class="fa-solid fa-code"></i>
-                        </a>
+                        <div class="button-container">
+                            <button id="myButton">
+                                <i class="fa-solid fa-code"></i>
+                            </button>
+                            <div id="popup" class="popup pop-1">
+                                <ul>
+                                    <li class="color_blue">C++</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="project-info">
@@ -232,9 +262,64 @@
                         <a href="project/web/site_auto_école.zip">
                             <i class="fa-solid fa-download"></i>
                         </a>
-                        <a href="https://github.com/Geoffreyriv974/Site-Auto-ecole">
-                            <i class="fa-solid fa-code"></i>
+                        <div class="button-container">
+                            <button id="myButton">
+                                <i class="fa-solid fa-code"></i>
+                            </button>
+                            <div id="popup" class="popup pop-3">
+                                <ul>
+                                    <li class="color_orange">HTML</li>
+                                    <li class="color_blue">CSS</li>
+                                    <li class="color_purple">PHP</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h5>Jeu des Nim</h5>
+                    <img src="image/batonnets-de-chocolat.png" class="picture_project" alt="batonnet"/>
+                    <div class="icon-project">
+                        <a href="#">
+                            <i class="fa-solid fa-eye"></i>
                         </a>
+                        <a href="">
+                            <i class="fa-solid fa-download"></i>
+                        </a>
+                        <div class="button-container">
+                            <button id="myButton">
+                                <i class="fa-solid fa-code"></i>
+                            </button>
+                            <div id="popup" class="popup pop-3">
+                                <ul>
+                                    <li class="color_orange">HTML</li>
+                                    <li class="color_blue">CSS</li>
+                                    <li class="color_yellow">JavaScript</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h5>WebRadio</h5>
+                    <img src="image/musique.png" class="picture_project" alt="Radio"/>
+                    <div class="icon-project">
+                        <a href="#">
+                            <i class="fa-solid fa-download"></i>
+                        </a>
+                        <div class="button-container">
+                            <button id="myButton">
+                                <i class="fa-solid fa-code"></i>
+                            </button>
+                            <div id="popup" class="popup pop-4">
+                                <ul>
+                                    <li class="color_blue">GO</li>
+                                    <li class="color_orange">HTML</li>
+                                    <li class="color_blue">CSS</li>
+                                    <li class="color_yellow">JavaScript</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
