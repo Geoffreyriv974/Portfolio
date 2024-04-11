@@ -30,13 +30,6 @@
     <div class="position-fixed z-index">
         <ul class="flex flex-wrap -mb-px text-sm font-medium text-center text-gray-500 dark:text-gray-400 menu border-gray-200 dark:border-gray-700">
             <li class="me-2">
-                <a href="#header" class="inline-flex items-center justify-center p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group">
-                    <svg class="w-4 h-4 me-2 text-gray-400 group-hover:text-gray-500 dark:text-gray-500 dark:group-hover:text-gray-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M10 0a10 10 0 1 0 10 10A10.011 10.011 0 0 0 10 0Zm0 5a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm0 13a8.949 8.949 0 0 1-4.951-1.488A3.987 3.987 0 0 1 9 13h2a3.987 3.987 0 0 1 3.951 3.512A8.949 8.949 0 0 1 10 18Z"/>
-                    </svg>Profil
-                </a>
-            </li>
-            <li class="me-2">
                 <a href="#partie2" class="inline-flex items-center justify-center p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group" aria-current="page">
                     <svg class="w-4 h-4 me-2 text-gray-400 group-hover:text-gray-500 dark:text-gray-500 dark:group-hover:text-gray-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 18">
                         <path d="M6.143 0H1.857A1.857 1.857 0 0 0 0 1.857v4.286C0 7.169.831 8 1.857 8h4.286A1.857 1.857 0 0 0 8 6.143V1.857A1.857 1.857 0 0 0 6.143 0Zm10 0h-4.286A1.857 1.857 0 0 0 10 1.857v4.286C10 7.169 10.831 8 11.857 8h4.286A1.857 1.857 0 0 0 18 6.143V1.857A1.857 1.857 0 0 0 16.143 0Zm-10 10H1.857A1.857 1.857 0 0 0 0 11.857v4.286C0 17.169.831 18 1.857 18h4.286A1.857 1.857 0 0 0 8 16.143v-4.286A1.857 1.857 0 0 0 6.143 10Zm10 0h-4.286A1.857 1.857 0 0 0 10 11.857v4.286c0 1.026.831 1.857 1.857 1.857h4.286A1.857 1.857 0 0 0 18 16.143v-4.286A1.857 1.857 0 0 0 16.143 10Z"/>
@@ -94,48 +87,48 @@
                 <div class="card-body card_comp">
                     <h5 class="card-title">Web</h5>
                     <ul class="text_overlay">
-                        <li><strong><span class="color_orange">HTML</span></strong></li>
-                        <li><strong><span class="color_blue">CSS</span></strong></li>
-                        <li><strong><span class="color_purple">PHP</span></strong></li>
-                        <li><strong><span class="color_yellow">JavaScript</span></strong></li>
-                        <li><strong><span class="color_blue">Symfony</span></strong></li>
-                        <li><strong><span class="color_pink">PrestaShop</span></strong></li>
-                        <li><strong><span class="color_red">UI/UX</span></strong></li>
+                        <li><span class="color_orange">HTML</span></li>
+                        <li><span class="color_blue">CSS</span></li>
+                        <li><span class="color_purple">PHP</span></li>
+                        <li><span class="color_yellow">JavaScript</span></li>
+                        <li><span class="color_blue">Symfony</span></li>
+                        <li><span class="color_pink">PrestaShop</span></li>
+                        <li><span class="color_red">UI/UX</span></li>
                     </ul>
                 </div>
             </div>
             <div class="card_page" style="width: 18rem;">
-                <img src="image/binary-code.png" class="img_comp" alt="python">
+                <img src="image/programmation.png" class="img_comp" alt="python">
                 <div class="card-body card_comp">
                     <h5 class="card-title">Programmation</h5>
                     <ul class="text_overlay">
-                        <li><strong><span class="color_yellow">Python/Tkinter</span></strong></li>
-                        <li><strong><span class="color_blue">C/C++</span></strong></li>
-                        <li><strong><span class="color_brown">SQL</span></strong></li>
-                        <li><strong><span class="color_red">UML</span></strong></li>
-                        <li><strong><span class="color_green">API</span></strong></li>
-                        <li><strong><span class="color_blue">GO</span></strong></li>
+                        <li><span class="color_yellow">Python/Tkinter</span></li>
+                        <li><span class="color_blue">C/C++</span></li>
+                        <li><span class="color_green">API</span></li>
+                        <li><span class="color_blue">GO</span></li>
                     </ul>
                 </div>
             </div>
             <div class="card_page" style="width: 18rem;">
                 <img src="image/internet.png" class="img_comp" alt="réseaux">
                 <div class="card-body card_comp">
-                    <h5 class="card-title">Réseaux</h5>
+                    <h5 class="card-title">Réseaux / système</h5>
                     <ul class="text_overlay">
-                        <li><strong><span class="color_blue">Cisco</span></strong></li>
+                        <li><span class="color_blue">Cisco</span></li>
+                        <li><span class="color_brown">Linux</span></li>
+                        <li><span class="color_blue">Windows serveur</span></li>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="case_competence">
             <div class="card_page" style="width: 18rem;">
-                <img src="image/content-management-system.png" class="img_comp" alt="windows">
+                <img src="image/base-de-donnees.png" class="img_comp" alt="windows">
                 <div class="card-body card_comp">
-                    <h5 class="card-title">Système</h5>
+                    <h5 class="card-title">Base de donnée</h5>
                     <ul class="text_overlay">
-                        <li><strong><span class="color_blue">Windows serveur</span></strong></li>
-                        <li><strong><span class="color_brown">Linux</span></strong></li>
+                        <li><span class="color_brown">MySQL</span></li>
+                        <li><span class="color_red">UML</span></li>
                     </ul>
                 </div>
             </div>
@@ -144,11 +137,11 @@
                 <div class="card-body card_comp">
                     <h5 class="card-title">Outils</h5>
                     <ul class="text_overlay">
-                        <li><strong><span class="color_red">Figma</span></strong></li>
-                        <li><strong><span class="color_blue">Packet Tracer</span></strong></li>
-                        <li><strong><span class="color_orange">VmWare</span></strong></li>
-                        <li><strong><span class="color_brown">JetBrains</span></strong></li>
-                        <li><strong><span class="color_blue">GIT</span></strong></li>
+                        <li><span class="color_red">Figma</span></li>
+                        <li><span class="color_blue">Packet Tracer</span></li>
+                        <li><span class="color_orange">VmWare</span></li>
+                        <li><span class="color_brown">JetBrains</span></li>
+                        <li><span class="color_blue">GIT</span></li>
                     </ul>
                 </div>
             </div>
@@ -185,29 +178,6 @@
                                 <i class="fa-solid fa-eye"></i>
                             </a>
                             <a href="project/python/calculatrice.zip">
-                                <i class="fa-solid fa-download"></i>
-                            </a>
-                            <div class="button-container">
-                                <button id="myButton">
-                                    <i class="fa-solid fa-code"></i>
-                                </button>
-                                <div id="popup" class="popup pop-2">
-                                    <ul>
-                                        <li class="color_yellow">Python</li>
-                                        <li class="color_yellow">Tkinter</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <h5>Password-Générate</h5>
-                        <img src="image/la-cyber-securite.png" class="picture_project" alt="password"/>
-                        <div class="icon-project">
-                            <a href="project/python/calculatrice.exe">
-                                <i class="fa-solid fa-eye"></i>
-                            </a>
-                            <a href="project/python/password_generate.zip">
                                 <i class="fa-solid fa-download"></i>
                             </a>
                             <div class="button-container">
@@ -311,12 +281,14 @@
                             <button id="myButton">
                                 <i class="fa-solid fa-code"></i>
                             </button>
-                            <div id="popup" class="popup pop-4">
+                            <div id="popup" class="popup pop-6">
                                 <ul>
                                     <li class="color_blue">GO</li>
                                     <li class="color_orange">HTML</li>
                                     <li class="color_blue">CSS</li>
                                     <li class="color_yellow">JavaScript</li>
+                                    <li class="color_brown">MySQL</li>
+                                    <li class="color_green">API</li>
                                 </ul>
                             </div>
                         </div>
@@ -393,9 +365,11 @@
                 <path d="M6 2.341V2a2 2 0 1 1 4 0v.341c2.33.824 4 3.047 4 5.659v5.5a2.5 2.5 0 0 1-2.5 2.5h-7A2.5 2.5 0 0 1 2 13.5V8a6.002 6.002 0 0 1 4-5.659ZM7 2v.083a6.04 6.04 0 0 1 2 0V2a1 1 0 0 0-2 0Zm1 1a5 5 0 0 0-5 5v5.5A1.5 1.5 0 0 0 4.5 15h7a1.5 1.5 0 0 0 1.5-1.5V8a5 5 0 0 0-5-5Z"/>
             </svg>
             <div>
-                <h2 class="name_scolaire">École-It</h2>
+                <h2 class="name_scolaire"><u>Ecole-IT</u> (2022 - 2027)</h2>
                 <h3 class="type_scolaire"><strong>Master Ingénieur informatique - Valenciennes</strong></h3>
-                <h6 class="info_scolaire">Programmation / Développement / Système et réseaux</h6>
+                <h6 class="info_scolaire">Programmation</h6>
+                <h6 class="info_scolaire">Développement</h6>
+                <h6 class="info_scolaire">Système et réseaux</h6>
             </div>
         </div>
         <div class="liste_scolaire">
@@ -404,10 +378,23 @@
                 <path d="M6 2.341V2a2 2 0 1 1 4 0v.341c2.33.824 4 3.047 4 5.659v5.5a2.5 2.5 0 0 1-2.5 2.5h-7A2.5 2.5 0 0 1 2 13.5V8a6.002 6.002 0 0 1 4-5.659ZM7 2v.083a6.04 6.04 0 0 1 2 0V2a1 1 0 0 0-2 0Zm1 1a5 5 0 0 0-5 5v5.5A1.5 1.5 0 0 0 4.5 15h7a1.5 1.5 0 0 0 1.5-1.5V8a5 5 0 0 0-5-5Z"/>
             </svg>
             <div>
-                <h2 class="name_scolaire">Lycée Dupleix</h2>
+                <h2 class="name_scolaire"><u>Lycée Dupleix</u> (2019 - 2022)</h2>
                 <h3 class="type_scolaire"><strong>Baccalauréat Général - Landrecies</strong></h3>
                 <h6 class="info_scolaire">Spé : Histoire Géopolitique / SES</h6>
                 <h6 class="info_scolaire">Option : Mathématique / Cinéma Audio-Visuel</h6>
+            </div>
+        </div>
+        <div class="liste_scolaire">
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-backpack" viewBox="0 0 16 16">
+                <path d="M4.04 7.43a4 4 0 0 1 7.92 0 .5.5 0 1 1-.99.14 3 3 0 0 0-5.94 0 .5.5 0 1 1-.99-.14ZM4 9.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-4Zm1 .5v3h6v-3h-1v.5a.5.5 0 0 1-1 0V10H5Z"/>
+                <path d="M6 2.341V2a2 2 0 1 1 4 0v.341c2.33.824 4 3.047 4 5.659v5.5a2.5 2.5 0 0 1-2.5 2.5h-7A2.5 2.5 0 0 1 2 13.5V8a6.002 6.002 0 0 1 4-5.659ZM7 2v.083a6.04 6.04 0 0 1 2 0V2a1 1 0 0 0-2 0Zm1 1a5 5 0 0 0-5 5v5.5A1.5 1.5 0 0 0 4.5 15h7a1.5 1.5 0 0 0 1.5-1.5V8a5 5 0 0 0-5-5Z"/>
+            </svg>
+            <div>
+                <h2 class="name_scolaire"><u>Collége Gille de Chin</u> (2015 - 2019)</h2>
+                <h3 class="type_scolaire"><strong>Brevet des colléges - Berlaimont</strong></h3>
+                <h6 class="info_scolaire">Français / Mathématique</h6>
+                <h6 class="info_scolaire">Histoire Géo</h6>
+                <h6 class="info_scolaire">Physique / SVT</h6>
             </div>
         </div>
     </section>
