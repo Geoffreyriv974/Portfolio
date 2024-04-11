@@ -40,6 +40,10 @@
     color: #1E3266;
     font-family: 'Roboto', sans-serif;
 }
+.text_overlay li {
+    font-weight: bold;
+}
+
 .card_page:hover .text_overlay{
     opacity: 1;
 }

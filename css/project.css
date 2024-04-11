@@ -140,6 +140,8 @@
 .pop-2{top: -6rem}
 .pop-3{top: -8rem}
 .pop-4{top: -10rem}
+.pop-5{top: -12.5rem}
+.pop-6{top: -14.5rem}
 
 .popup ul {
     list-style-type: none;
@@ -147,6 +149,7 @@
 }
 .popup li {
     padding: 5px 0;
+    font-weight: bold;
 }
 .button-container {
     position: relative;
