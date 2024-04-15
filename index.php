@@ -83,9 +83,9 @@
         <h1 class="name_partie"><strong>Mes compétences</strong></h1>
         <div class="case_competence">
             <div class="card_page" style="width: 18rem;">
-                <img src="image/web.png" class="img_comp" alt="web">
+                <img src="image/page-web.png" class="img_comp" alt="web">
                 <div class="card-body card_comp">
-                    <h5 class="card-title">Web</h5>
+                    <h5 class="card-title">Développement Web</h5>
                     <ul class="text_overlay">
                         <li><span class="color_orange">HTML</span></li>
                         <li><span class="color_blue">CSS</span></li>
@@ -100,10 +100,11 @@
             <div class="card_page" style="width: 18rem;">
                 <img src="image/programmation.png" class="img_comp" alt="python">
                 <div class="card-body card_comp">
-                    <h5 class="card-title">Programmation</h5>
+                    <h5 class="card-title">Développement Application</h5>
                     <ul class="text_overlay">
                         <li><span class="color_yellow">Python/Tkinter</span></li>
-                        <li><span class="color_blue">C/C++</span></li>
+                        <li><span class="color_blue">C</span></li>
+                        <li><span class="color_pink">C++/QtDesign</span></li>
                         <li><span class="color_green">API</span></li>
                         <li><span class="color_blue">GO</span></li>
                     </ul>
@@ -137,6 +138,7 @@
                 <div class="card-body card_comp">
                     <h5 class="card-title">Outils</h5>
                     <ul class="text_overlay">
+                        <li><span class="color_purple">Office 365</span></li>
                         <li><span class="color_red">Figma</span></li>
                         <li><span class="color_blue">Packet Tracer</span></li>
                         <li><span class="color_orange">VmWare</span></li>
@@ -216,7 +218,7 @@
                             </button>
                             <div id="popup" class="popup pop-1">
                                 <ul>
-                                    <li class="color_blue">C++</li>
+                                    <li class="color_pink">C++</li>
                                 </ul>
                             </div>
                         </div>
