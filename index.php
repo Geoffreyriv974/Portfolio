@@ -102,9 +102,9 @@
                 <div class="card-body card_comp">
                     <h5 class="card-title">Développement Application</h5>
                     <ul class="text_overlay">
-                        <li><span class="color_yellow">Python/Tkinter</span></li>
+                        <li><span class="color_yellow">Python</span></li>
                         <li><span class="color_blue">C</span></li>
-                        <li><span class="color_pink">C++/QtDesign</span></li>
+                        <li><span class="color_pink">C++</span></li>
                         <li><span class="color_green">API</span></li>
                         <li><span class="color_blue">GO</span></li>
                     </ul>
@@ -144,6 +144,7 @@
                         <li><span class="color_orange">VmWare</span></li>
                         <li><span class="color_brown">JetBrains</span></li>
                         <li><span class="color_blue">GIT</span></li>
+                        <li><span class="color_purple">Visual Studio</span></li>
                     </ul>
                 </div>
             </div>
@@ -163,9 +164,6 @@
                     <i></i> Web
                 </div>
                 <div  onclick="changeTab(3)">
-                    <i></i> JavaScript
-                </div>
-                <div  onclick="changeTab(4)">
                     <i></i> Go
                 </div>
             </div>
@@ -186,10 +184,9 @@
                                 <button id="myButton">
                                     <i class="fa-solid fa-code"></i>
                                 </button>
-                                <div id="popup" class="popup pop-2">
+                                <div id="popup" class="popup pop-1">
                                     <ul>
                                         <li class="color_yellow">Python</li>
-                                        <li class="color_yellow">Tkinter</li>
                                     </ul>
                                 </div>
                             </div>
@@ -243,30 +240,6 @@
                                     <li class="color_orange">HTML</li>
                                     <li class="color_blue">CSS</li>
                                     <li class="color_purple">PHP</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-info">
-                    <h5>Jeu des Nim</h5>
-                    <img src="image/batonnets-de-chocolat.png" class="picture_project" alt="batonnet"/>
-                    <div class="icon-project">
-                        <a href="#">
-                            <i class="fa-solid fa-eye"></i>
-                        </a>
-                        <a href="">
-                            <i class="fa-solid fa-download"></i>
-                        </a>
-                        <div class="button-container">
-                            <button id="myButton">
-                                <i class="fa-solid fa-code"></i>
-                            </button>
-                            <div id="popup" class="popup pop-3">
-                                <ul>
-                                    <li class="color_orange">HTML</li>
-                                    <li class="color_blue">CSS</li>
-                                    <li class="color_yellow">JavaScript</li>
                                 </ul>
                             </div>
                         </div>
