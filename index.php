@@ -105,6 +105,7 @@
                         <li><span class="color_yellow">Python</span></li>
                         <li><span class="color_blue">C</span></li>
                         <li><span class="color_pink">C++</span></li>
+                        <li><span class="color_light_green">C#</span></li>
                         <li><span class="color_green">API</span></li>
                         <li><span class="color_blue">GO</span></li>
                     </ul>
@@ -166,6 +167,9 @@
                 <div  onclick="changeTab(3)">
                     <i></i> Go
                 </div>
+                <div  onclick="changeTab(4)">
+                    <i></i> C#
+                </div>
             </div>
             <div class="tab-indicator"></div>
             <div class="tab-body">
@@ -175,14 +179,14 @@
                         <img src="image/calculator.png" class="picture_project" alt="calculatrice"/>
                         <div class="icon-project">
                             <a href="project/python/calculatrice.exe">
-                                <i class="fa-solid fa-eye"></i>
+                                <p class="btn-download-type">.EXE</p>
                             </a>
                             <a href="project/python/calculatrice.zip">
-                                <i class="fa-solid fa-download"></i>
+                                <p class="btn-download-type">.ZIP</p>
                             </a>
                             <div class="button-container">
                                 <button id="myButton">
-                                    <i class="fa-solid fa-code"></i>
+                                    <p class="btn-download-type">Code</p>
                                 </button>
                                 <div id="popup" class="popup pop-1">
                                     <ul>
@@ -204,14 +208,14 @@
                     <img src="image/donjon.png" class="picture_project" alt="donjon"/>
                     <div class="icon-project">
                         <a href="project/c++/Dungeon_and_monsters.exe">
-                            <i class="fa-solid fa-eye"></i>
+                            <p class="btn-download-type">.EXE</p>
                         </a>
                         <a href="project/c++/Dungeon%20and%20monsters.zip">
-                            <i class="fa-solid fa-download"></i>
+                            <p class="btn-download-type">.ZIP</p>
                         </a>
                         <div class="button-container">
                             <button id="myButton">
-                                <i class="fa-solid fa-code"></i>
+                                <p class="btn-download-type">Code</p>
                             </button>
                             <div id="popup" class="popup pop-1">
                                 <ul>
@@ -226,14 +230,14 @@
                     <img src="image/sport-car.png" class="picture_project" alt="voiture"/>
                     <div class="icon-project">
                         <a href="project/web/site_auto_école/index.html">
-                            <i class="fa-solid fa-eye"></i>
+                            <p class="btn-download-type">view</p>
                         </a>
                         <a href="project/web/site_auto_école.zip">
-                            <i class="fa-solid fa-download"></i>
+                            <p class="btn-download-type">.ZIP</p>
                         </a>
                         <div class="button-container">
                             <button id="myButton">
-                                <i class="fa-solid fa-code"></i>
+                                <p class="btn-download-type">Code</p>
                             </button>
                             <div id="popup" class="popup pop-3">
                                 <ul>
@@ -250,11 +254,11 @@
                     <img src="image/musique.png" class="picture_project" alt="Radio"/>
                     <div class="icon-project">
                         <a href="#">
-                            <i class="fa-solid fa-download"></i>
+                            <p class="btn-download-type">.ZIP</p>
                         </a>
                         <div class="button-container">
                             <button id="myButton">
-                                <i class="fa-solid fa-code"></i>
+                                <p class="btn-download-type">Code</p>
                             </button>
                             <div id="popup" class="popup pop-6">
                                 <ul>
@@ -264,6 +268,28 @@
                                     <li class="color_yellow">JavaScript</li>
                                     <li class="color_brown">MySQL</li>
                                     <li class="color_green">API</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h5>BlackJack</h5>
+                    <img src="image/jeu.png" class="picture_project" alt="blackjack"/>
+                    <div class="icon-project">
+                        <a href="#">
+                            <p class="btn-download-type">.EXE</p>
+                        </a>
+                        <a href="#">
+                            <p class="btn-download-type">.ZIP</p>
+                        </a>
+                        <div class="button-container">
+                            <button id="myButton">
+                                <p class="btn-download-type">Code</p>
+                            </button>
+                            <div id="popup" class="popup pop-1">
+                                <ul>
+                                    <li class="color_light_green">C#</li>
                                 </ul>
                             </div>
                         </div>
@@ -282,7 +308,10 @@
                     <span class="year">10 juillet - 16 septembre 2023</span>
                     <h3 class="title">Job étudiant -- Intermarché, Le Quesnoy</h3>
                     <p class="description">
-                        Mise en rayon : Fruits & Légumes, épicerie, Parfumerie<br>
+                        Mise en rayon :<br>
+                        - Fruits & Légumes<br>
+                        - épicerie<br>
+                        - Parfumerie<br>
                         inventaire
                     </p>
                 </div>
@@ -305,7 +334,7 @@
                     <h3 class="title">Vendanges -- Cernay-Lès Reims</h3>
                     <p class="description">
                         Cueillette du raisin<br>
-                        Transport du raisin jusqu'au camion de transport
+                        Transport du raisin
                     </p>
                 </div>
             </div>
