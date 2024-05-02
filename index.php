@@ -51,7 +51,7 @@
                 </a>
             </li>
             <li class="me-2">
-                <a href="contact.php" class="inline-flex items-center justify-center p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group">
+                <a href="contact.html" class="inline-flex items-center justify-center p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group">
                     <svg class="w-4 h-4 me-2 text-gray-400 group-hover:text-gray-500 dark:text-gray-500 dark:group-hover:text-gray-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 20">
                         <path d="M16 1h-3.278A1.992 1.992 0 0 0 11 0H7a1.993 1.993 0 0 0-1.722 1H2a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2Zm-3 14H5a1 1 0 0 1 0-2h8a1 1 0 0 1 0 2Zm0-4H5a1 1 0 0 1 0-2h8a1 1 0 1 1 0 2Zm0-5H5a1 1 0 0 1 0-2h2V2h4v2h2a1 1 0 1 1 0 2Z"/>
                     </svg>Contacts
@@ -185,10 +185,10 @@
                                 <p class="btn-download-type">.ZIP</p>
                             </a>
                             <div class="button-container">
-                                <button id="myButton">
+                                <button class="myButton">
                                     <p class="btn-download-type">Code</p>
                                 </button>
-                                <div id="popup" class="popup pop-1">
+                                <div class="popup-id" class="popup pop-1">
                                     <ul>
                                         <li class="color_yellow">Python</li>
                                     </ul>
@@ -214,10 +214,10 @@
                             <p class="btn-download-type">.ZIP</p>
                         </a>
                         <div class="button-container">
-                            <button id="myButton">
+                            <button class="myButton">
                                 <p class="btn-download-type">Code</p>
                             </button>
-                            <div id="popup" class="popup pop-1">
+                            <div class="popup-id" class="popup pop-1">
                                 <ul>
                                     <li class="color_pink">C++</li>
                                 </ul>
@@ -236,10 +236,10 @@
                             <p class="btn-download-type">.ZIP</p>
                         </a>
                         <div class="button-container">
-                            <button id="myButton">
+                            <button class="myButton">
                                 <p class="btn-download-type">Code</p>
                             </button>
-                            <div id="popup" class="popup pop-3">
+                            <div class="popup-id" class="popup pop-3">
                                 <ul>
                                     <li class="color_orange">HTML</li>
                                     <li class="color_blue">CSS</li>
@@ -257,10 +257,10 @@
                             <p class="btn-download-type">.ZIP</p>
                         </a>
                         <div class="button-container">
-                            <button id="myButton">
+                            <button class="myButton">
                                 <p class="btn-download-type">Code</p>
                             </button>
-                            <div id="popup" class="popup pop-6">
+                            <div id="popup-id" class="popup pop-6">
                                 <ul>
                                     <li class="color_blue">GO</li>
                                     <li class="color_orange">HTML</li>
@@ -284,10 +284,10 @@
                             <p class="btn-download-type">.ZIP</p>
                         </a>
                         <div class="button-container">
-                            <button id="myButton">
+                            <button class="myButton">
                                 <p class="btn-download-type">Code</p>
                             </button>
-                            <div id="popup" class="popup pop-1">
+                            <div id="popup-id" class="popup pop-1">
                                 <ul>
                                     <li class="color_light_green">C#</li>
                                 </ul>
