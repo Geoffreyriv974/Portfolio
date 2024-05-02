@@ -182,7 +182,20 @@
             <div class="tab-body">
                 <div class="project-info active" id="carrousel">
                     <div class="container active">
-                        <h5>Calculatrice</h5>
+                        <div class="div-info-project">
+                            <div class="button-container">
+                                <div class="space"></div>
+                                <h5>Calculatrice</h5>
+                                <button id="myButton">
+                                    <i class="fa-solid fa-question fa-beat-fade"></i>
+                                </button>
+                                <div id="popup" class="popup pop-1">
+                                    <ul>
+                                        <li class="color_yellow">Python</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                         <img src="image/calculator.png" class="picture_project" alt="calculatrice"/>
                         <div class="icon-project">
                             <a href="project/python/calculatrice.exe">
@@ -191,16 +204,6 @@
                             <a href="project/python/calculatrice.zip">
                                 <p class="btn-download-type">.ZIP</p>
                             </a>
-                            <div class="button-container">
-                                <button id="myButton">
-                                    <p class="btn-download-type btn-code">Code</p>
-                                </button>
-                                <div id="popup" class="popup pop-1">
-                                    <ul>
-                                        <li class="color_yellow">Python</li>
-                                    </ul>
-                                </div>
-                            </div>
                         </div>
                     </div>
                     <svg xmlns="http://www.w3.org/2000/svg" class="bouton" id="d" width="50" viewBox="0 0 512 512">
@@ -211,7 +214,22 @@
                     </svg>
                 </div>
                 <div class="project-info">
-                    <h5>Dungeon and Monsters</h5>
+                    <div class="div-info-project">
+                        <div class="div-info-project">
+                            <div class="button-container">
+                                <div class="space"></div>
+                                <h5>Dungeon and Monsters</h5>
+                                <button id="myButton">
+                                    <i class="fa-solid fa-question fa-beat-fade"></i>
+                                </button>
+                                <div id="popup" class="popup pop-1">
+                                    <ul>
+                                        <li class="color_pink">C++</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <img src="image/donjon.png" class="picture_project" alt="donjon"/>
                     <div class="icon-project">
                         <a href="project/c++/Dungeon_and_monsters.exe">
@@ -220,20 +238,27 @@
                         <a href="project/c++/Dungeon%20and%20monsters.zip">
                             <p class="btn-download-type">.ZIP</p>
                         </a>
-                        <div class="button-container">
-                            <button id="myButton">
-                                <p class="btn-download-type btn-code">Code</p>
-                            </button>
-                            <div id="popup" class="popup pop-1">
-                                <ul>
-                                    <li class="color_pink">C++</li>
-                                </ul>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <div class="project-info">
-                    <h5>Site Auto-Ecole</h5>
+                    <div class="div-info-project">
+                        <div class="div-info-project">
+                            <div class="button-container">
+                                <div class="space"></div>
+                                <h5>Site Auto-Ecole</h5>
+                                <button id="myButton">
+                                    <i class="fa-solid fa-question fa-beat-fade"></i>
+                                </button>
+                                <div id="popup" class="popup pop-1">
+                                    <ul>
+                                        <li class="color_orange">HTML</li>
+                                        <li class="color_blue">CSS</li>
+                                        <li class="color_purple">PHP</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <img src="image/sport-car.png" class="picture_project" alt="voiture"/>
                     <div class="icon-project">
                         <a href="project/web/site_auto_école/index.html">
@@ -242,46 +267,54 @@
                         <a href="project/web/site_auto_école.zip">
                             <p class="btn-download-type">.ZIP</p>
                         </a>
-                        <div class="button-container">
-                            <button id="myButton">
-                                <p class="btn-download-type btn-code">Code</p>
-                            </button>
-                            <div id="popup" class="popup pop-3">
-                                <ul>
-                                    <li class="color_orange">HTML</li>
-                                    <li class="color_blue">CSS</li>
-                                    <li class="color_purple">PHP</li>
-                                </ul>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <div class="project-info">
-                    <h5>WebRadio</h5>
+                    <div class="div-info-project">
+                        <div class="div-info-project">
+                            <div class="button-container">
+                                <div class="space"></div>
+                                <h5>WebRadio</h5>
+                                <button id="myButton">
+                                    <i class="fa-solid fa-question fa-beat-fade"></i>
+                                </button>
+                                <div id="popup" class="popup pop-1">
+                                    <ul>
+                                        <li class="color_blue">GO</li>
+                                        <li class="color_orange">HTML</li>
+                                        <li class="color_blue">CSS</li>
+                                        <li class="color_yellow">JavaScript</li>
+                                        <li class="color_brown">MySQL</li>
+                                        <li class="color_green">API</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <img src="image/musique.png" class="picture_project" alt="Radio"/>
                     <div class="icon-project">
                         <a href="#">
                             <p class="btn-download-type">.ZIP</p>
                         </a>
-                        <div class="button-container">
-                            <button id="myButton">
-                                <p class="btn-download-type btn-code">Code</p>
-                            </button>
-                            <div id="popup" class="popup pop-6">
-                                <ul>
-                                    <li class="color_blue">GO</li>
-                                    <li class="color_orange">HTML</li>
-                                    <li class="color_blue">CSS</li>
-                                    <li class="color_yellow">JavaScript</li>
-                                    <li class="color_brown">MySQL</li>
-                                    <li class="color_green">API</li>
-                                </ul>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <div class="project-info">
-                    <h5>BlackJack</h5>
+                    <div class="div-info-project">
+                        <div class="div-info-project">
+                            <div class="button-container">
+                                <div class="space"></div>
+                                <h5>BlackJack</h5>
+                                <button id="myButton">
+                                    <i class="fa-solid fa-question fa-beat-fade"></i>
+                                </button>
+                                <div id="popup" class="popup pop-1">
+                                    <ul>
+                                        <li class="color_light_green">C#</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <img src="image/jeu.png" class="picture_project" alt="blackjack"/>
                     <div class="icon-project">
                         <a href="#">
@@ -290,16 +323,6 @@
                         <a href="#">
                             <p class="btn-download-type">.ZIP</p>
                         </a>
-                        <div class="button-container">
-                            <button id="myButton">
-                                <p class="btn-download-type btn-code">Code</p>
-                            </button>
-                            <div id="popup" class="popup pop-1">
-                                <ul>
-                                    <li class="color_light_green">C#</li>
-                                </ul>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
