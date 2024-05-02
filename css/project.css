@@ -136,8 +136,13 @@
     border-radius: 5px;
     padding: 10px;
     z-index: 1;
+    min-width: 6rem;
+    border: solid 2px #1E3266;
 }
-.pop-1{top: 4rem}
+.pop-1{
+    top: 4rem;
+    right: 3rem;
+}
 
 .popup ul {
     list-style-type: none;
