@@ -21,7 +21,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <script src="./js/scroll.js"></script>
     <script src="./js/project.js"></script>
-    <script src="./js/carousel.js"></script>
+    <script src="js/popup.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
 </head>
@@ -99,7 +99,6 @@
                         <li><span class="color_purple">PHP</span></li>
                         <li><span class="color_yellow">JavaScript</span></li>
                         <li><span class="color_blue">Symfony</span></li>
-                        <li><span class="color_pink">PrestaShop</span></li>
                         <li><span class="color_red">UI/UX</span></li>
                     </ul>
                 </div>
@@ -115,6 +114,7 @@
                         <li><span class="color_light_green">C#</span></li>
                         <li><span class="color_green">API</span></li>
                         <li><span class="color_blue">GO</span></li>
+                        <li><span class="color_red">UML</span></li>
                     </ul>
                 </div>
             </div>
@@ -137,7 +137,7 @@
                     <h5 class="card-title">Base de donnée</h5>
                     <ul class="text_overlay">
                         <li><span class="color_brown">MySQL</span></li>
-                        <li><span class="color_red">UML</span></li>
+                        <li><span class="color_gray">DbBrowser</span></li>
                     </ul>
                 </div>
             </div>
@@ -146,7 +146,6 @@
                 <div class="card-body card_comp">
                     <h5 class="card-title">Outils</h5>
                     <ul class="text_overlay">
-                        <li><span class="color_purple">Office 365</span></li>
                         <li><span class="color_red">Figma</span></li>
                         <li><span class="color_blue">Packet Tracer</span></li>
                         <li><span class="color_orange">VmWare</span></li>
@@ -163,29 +162,30 @@
         <div class="tabs">
             <div class="tab-header">
                 <div class="active"  onclick="changeTab(0)">
-                    <i></i> Python
+                    <i></i> Démineur
                 </div>
                 <div  onclick="changeTab(1)">
-                    <i></i> C++
+                    <i></i> Casse-Brique
                 </div>
                 <div  onclick="changeTab(2)">
-                    <i></i> Web
+                    <i></i> Site Auto-Ecole
                 </div>
                 <div  onclick="changeTab(3)">
-                    <i></i> Go
+                    <i></i> WebRadio
                 </div>
                 <div  onclick="changeTab(4)">
-                    <i></i> C#
+                    <i></i> Pacman
+                </div>
+                <div  onclick="changeTab(5)">
+                    <i></i> SuperMarkit
                 </div>
             </div>
             <div class="tab-indicator"></div>
             <div class="tab-body">
-                <div class="project-info active" id="carrousel">
-                    <div class="container active">
+                <div class="project-info">
+                    <div class="div-info-project">
                         <div class="div-info-project">
                             <div class="button-container">
-                                <div class="space"></div>
-                                <h5>Calculatrice</h5>
                                 <button id="myButton">
                                     <i class="fa-solid fa-question fa-beat-fade"></i>
                                 </button>
@@ -196,46 +196,10 @@
                                 </div>
                             </div>
                         </div>
-                        <img src="image/calculator.png" class="picture_project" alt="calculatrice"/>
-                        <div class="icon-project">
-                            <a href="project/python/calculatrice.exe">
-                                <p class="btn-download-type">.EXE</p>
-                            </a>
-                            <a href="project/python/calculatrice.zip">
-                                <p class="btn-download-type">.ZIP</p>
-                            </a>
-                        </div>
                     </div>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="bouton" id="d" width="50" viewBox="0 0 512 512">
-                        <path d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="bouton" id="g" width="50" viewBox="0 0 512 512">
-                        <path d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z"/>
-                    </svg>
-                </div>
-                <div class="project-info">
-                    <div class="div-info-project">
-                        <div class="div-info-project">
-                            <div class="button-container">
-                                <div class="space"></div>
-                                <h5>Dungeon and Monsters</h5>
-                                <button id="myButton">
-                                    <i class="fa-solid fa-question fa-beat-fade"></i>
-                                </button>
-                                <div id="popup" class="popup pop-1">
-                                    <ul>
-                                        <li class="color_pink">C++</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <img src="image/donjon.png" class="picture_project" alt="donjon"/>
+                    <img src="image/time-bomb.png" class="picture_project" alt="pioche"/>
                     <div class="icon-project">
-                        <a href="project/c++/Dungeon_and_monsters.exe">
-                            <p class="btn-download-type">.EXE</p>
-                        </a>
-                        <a href="project/c++/Dungeon%20and%20monsters.zip">
+                        <a href="project/démineur_1.zip">
                             <p class="btn-download-type">.ZIP</p>
                         </a>
                     </div>
@@ -244,8 +208,29 @@
                     <div class="div-info-project">
                         <div class="div-info-project">
                             <div class="button-container">
-                                <div class="space"></div>
-                                <h5>Site Auto-Ecole</h5>
+                                <button id="myButton">
+                                    <i class="fa-solid fa-question fa-beat-fade"></i>
+                                </button>
+                                <div id="popup" class="popup pop-1">
+                                    <ul>
+                                        <li class="color_yellow">Python</li>
+                                        <li class="color_brown">MySQL</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="image/firewall.png" class="picture_project" alt="firewall"/>
+                    <div class="icon-project">
+                        <a href="project/casse-brique.zip">
+                            <p class="btn-download-type">.ZIP</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <div class="div-info-project">
+                        <div class="div-info-project">
+                            <div class="button-container">
                                 <button id="myButton">
                                     <i class="fa-solid fa-question fa-beat-fade"></i>
                                 </button>
@@ -261,10 +246,10 @@
                     </div>
                     <img src="image/sport-car.png" class="picture_project" alt="voiture"/>
                     <div class="icon-project">
-                        <a href="project/web/site_auto_école/index.html">
+                        <a href="project/site_auto_école/index.html">
                             <p class="btn-download-type">view</p>
                         </a>
-                        <a href="project/web/site_auto_école.zip">
+                        <a href="project/site_auto_école.zip">
                             <p class="btn-download-type">.ZIP</p>
                         </a>
                     </div>
@@ -273,8 +258,6 @@
                     <div class="div-info-project">
                         <div class="div-info-project">
                             <div class="button-container">
-                                <div class="space"></div>
-                                <h5>WebRadio</h5>
                                 <button id="myButton">
                                     <i class="fa-solid fa-question fa-beat-fade"></i>
                                 </button>
@@ -293,7 +276,7 @@
                     </div>
                     <img src="image/musique.png" class="picture_project" alt="Radio"/>
                     <div class="icon-project">
-                        <a href="#">
+                        <a href="project/WebRadio.zip">
                             <p class="btn-download-type">.ZIP</p>
                         </a>
                     </div>
@@ -302,25 +285,44 @@
                     <div class="div-info-project">
                         <div class="div-info-project">
                             <div class="button-container">
-                                <div class="space"></div>
-                                <h5>BlackJack</h5>
                                 <button id="myButton">
                                     <i class="fa-solid fa-question fa-beat-fade"></i>
                                 </button>
                                 <div id="popup" class="popup pop-1">
                                     <ul>
-                                        <li class="color_light_green">C#</li>
+                                        <li class="color_yellow">python</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <img src="image/jeu.png" class="picture_project" alt="blackjack"/>
+                    <img src="image/jeu-video.png" class="picture_project" alt="pacman"/>
                     <div class="icon-project">
-                        <a href="#">
-                            <p class="btn-download-type">.EXE</p>
+                        <a href="project/Pacman.zip">
+                            <p class="btn-download-type">.ZIP</p>
                         </a>
-                        <a href="#">
+                    </div>
+                </div>
+                <div class="project-info">
+                    <div class="div-info-project">
+                        <div class="div-info-project">
+                            <div class="button-container">
+                                <button id="myButton">
+                                    <i class="fa-solid fa-question fa-beat-fade"></i>
+                                </button>
+                                <div id="popup" class="popup pop-1">
+                                    <ul>
+                                        <li class="color_blue">Symfony</li>
+                                        <li class="color_blue">CSS</li>
+                                        <li class="color_purple">PHP</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="image/boutique.png" class="picture_project" alt="shop"/>
+                    <div class="icon-project">
+                        <a href="project/Supermarkit.zip">
                             <p class="btn-download-type">.ZIP</p>
                         </a>
                     </div>
@@ -335,13 +337,22 @@
         <div class="main-timeline">
             <div class="timeline">
                 <div class="timeline-content-1">
+                    <span class="year"> 1 Juin - 31 août 2024</span>
+                    <h3 class="title">Job étudiant -- PUB La Goudale, Le Quesnoy</h3>
+                    <p class="description">
+                        Server<br>
+                    </p>
+                </div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-content-1">
                     <span class="year">10 juillet - 16 septembre 2023</span>
                     <h3 class="title">Job étudiant -- Intermarché, Le Quesnoy</h3>
                     <p class="description">
                         Mise en rayon :<br>
-                        - Fruits & Légumes<br>
-                        - épicerie<br>
-                        - Parfumerie<br>
+                        Fruits & Légumes<br>
+                        épicerie<br>
+                        Parfumerie<br>
                         inventaire
                     </p>
                 </div>

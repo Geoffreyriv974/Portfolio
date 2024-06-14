@@ -11,6 +11,11 @@
 .icon-project .fa-code {
     cursor: auto;
 }
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .icon-project .btn-download-type:hover {
     background: #1E3266;
     color: white;
@@ -76,7 +81,7 @@
 }
 .tabs .tab-indicator {
     position: relative;
-    width: calc(100% / 5);
+    width: calc(100% / 6);
     height: 5px;
     background: #1E3266;
     left: 0;
@@ -102,33 +107,6 @@
     transform: scale(1);
     margin-top: 0;
 }
-.bouton {
-    position: absolute;
-    cursor: pointer;
-    top: 150px;
-}
-#g {
-    left: 0;
-    opacity: 0.4;
-    transform: rotate(270deg);
-    transition: all 0.3s ease;
-}
-#d {
-    right: 0;
-    opacity: 0.4;
-    transform: rotate(90deg);
-    transition: all 0.3s ease;
-}
-#g:hover {
-    transform:rotate(270deg) scale(1.1);
-    opacity: 1;
-    transition: all 0.3s ease;
-}
-#d:hover {
-    transform:rotate(90deg) scale(1.1);
-    opacity: 1;
-    transition: all 0.3s ease;
-}
 .popup {
     display: none;
     position: absolute;
@@ -141,7 +119,6 @@
 }
 .pop-1{
     top: 4rem;
-    right: 3rem;
 }
 
 .popup ul {
@@ -151,10 +128,6 @@
 .popup li {
     padding: 5px 0;
     font-weight: bold;
-}
-.button-container {
-    display: flex;
-    justify-content: space-around;
 }
 .button-container i {
     border: solid 2px #1E3266;
