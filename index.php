@@ -69,7 +69,7 @@
     <img src="image/bussiness-man.png" alt="mon visage" id="my">
     <div id="my_name">
         <h1>Geoffrey Riviere</h1>
-        <h2>Développeur Web</h2>
+        <h2>Développeur</h2>
     </div>
 </header>
 <main>
@@ -106,7 +106,7 @@
             <div class="card_page" style="width: 18rem;">
                 <img src="image/programmation.png" class="img_comp" alt="python">
                 <div class="card-body card_comp">
-                    <h5 class="card-title">Développement Application</h5>
+                    <h5 class="card-title">Développement App</h5>
                     <ul class="text_overlay">
                         <li><span class="color_yellow">Python</span></li>
                         <li><span class="color_blue">C</span></li>
@@ -162,71 +162,11 @@
         <div class="tabs">
             <div class="tab-header">
                 <div class="active"  onclick="changeTab(0)">
-                    <i></i> Démineur
-                </div>
-                <div  onclick="changeTab(1)">
-                    <i></i> Casse-Brique
-                </div>
-                <div  onclick="changeTab(2)">
-                    <i></i> Site Auto-Ecole
-                </div>
-                <div  onclick="changeTab(3)">
-                    <i></i> WebRadio
-                </div>
-                <div  onclick="changeTab(4)">
-                    <i></i> Pacman
-                </div>
-                <div  onclick="changeTab(5)">
-                    <i></i> SuperMarkit
+                    <i></i> Site Auto-ecole
                 </div>
             </div>
             <div class="tab-indicator"></div>
             <div class="tab-body">
-                <div class="project-info">
-                    <div class="div-info-project">
-                        <div class="div-info-project">
-                            <div class="button-container">
-                                <button id="myButton">
-                                    <i class="fa-solid fa-question fa-beat-fade"></i>
-                                </button>
-                                <div id="popup" class="popup pop-1">
-                                    <ul>
-                                        <li class="color_yellow">Python</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <img src="image/time-bomb.png" class="picture_project" alt="pioche"/>
-                    <div class="icon-project">
-                        <a href="project/démineur_1.zip">
-                            <p class="btn-download-type">.ZIP</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="project-info">
-                    <div class="div-info-project">
-                        <div class="div-info-project">
-                            <div class="button-container">
-                                <button id="myButton">
-                                    <i class="fa-solid fa-question fa-beat-fade"></i>
-                                </button>
-                                <div id="popup" class="popup pop-1">
-                                    <ul>
-                                        <li class="color_yellow">Python</li>
-                                        <li class="color_brown">MySQL</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <img src="image/firewall.png" class="picture_project" alt="firewall"/>
-                    <div class="icon-project">
-                        <a href="project/casse-brique.zip">
-                            <p class="btn-download-type">.ZIP</p>
-                        </a>
-                    </div>
-                </div>
                 <div class="project-info">
                     <div class="div-info-project">
                         <div class="div-info-project">
@@ -250,79 +190,6 @@
                             <p class="btn-download-type">view</p>
                         </a>
                         <a href="project/site_auto_école.zip">
-                            <p class="btn-download-type">.ZIP</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="project-info">
-                    <div class="div-info-project">
-                        <div class="div-info-project">
-                            <div class="button-container">
-                                <button id="myButton">
-                                    <i class="fa-solid fa-question fa-beat-fade"></i>
-                                </button>
-                                <div id="popup" class="popup pop-1">
-                                    <ul>
-                                        <li class="color_blue">GO</li>
-                                        <li class="color_orange">HTML</li>
-                                        <li class="color_blue">CSS</li>
-                                        <li class="color_yellow">JavaScript</li>
-                                        <li class="color_brown">MySQL</li>
-                                        <li class="color_green">API</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <img src="image/musique.png" class="picture_project" alt="Radio"/>
-                    <div class="icon-project">
-                        <a href="project/WebRadio.zip">
-                            <p class="btn-download-type">.ZIP</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="project-info">
-                    <div class="div-info-project">
-                        <div class="div-info-project">
-                            <div class="button-container">
-                                <button id="myButton">
-                                    <i class="fa-solid fa-question fa-beat-fade"></i>
-                                </button>
-                                <div id="popup" class="popup pop-1">
-                                    <ul>
-                                        <li class="color_yellow">python</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <img src="image/jeu-video.png" class="picture_project" alt="pacman"/>
-                    <div class="icon-project">
-                        <a href="project/Pacman.zip">
-                            <p class="btn-download-type">.ZIP</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="project-info">
-                    <div class="div-info-project">
-                        <div class="div-info-project">
-                            <div class="button-container">
-                                <button id="myButton">
-                                    <i class="fa-solid fa-question fa-beat-fade"></i>
-                                </button>
-                                <div id="popup" class="popup pop-1">
-                                    <ul>
-                                        <li class="color_blue">Symfony</li>
-                                        <li class="color_blue">CSS</li>
-                                        <li class="color_purple">PHP</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <img src="image/boutique.png" class="picture_project" alt="shop"/>
-                    <div class="icon-project">
-                        <a href="project/Supermarkit.zip">
                             <p class="btn-download-type">.ZIP</p>
                         </a>
                     </div>

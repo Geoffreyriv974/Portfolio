@@ -81,7 +81,7 @@
 }
 .tabs .tab-indicator {
     position: relative;
-    width: calc(100% / 6);
+    width: calc(100% / 1);
     height: 5px;
     background: #1E3266;
     left: 0;
