@@ -138,6 +138,7 @@
                     <ul class="text_overlay">
                         <li><span class="color_brown">MySQL</span></li>
                         <li><span class="color_gray">DbBrowser</span></li>
+                        <li><span class="color_orange">phpMyAdmin</span></li>
                     </ul>
                 </div>
             </div>
@@ -204,10 +205,12 @@
         <div class="main-timeline">
             <div class="timeline">
                 <div class="timeline-content-1">
-                    <span class="year"> 1 Juin - 31 août 2024</span>
-                    <h3 class="title">Job étudiant -- PUB La Goudale, Le Quesnoy</h3>
+                    <span class="year"> 10 juillet - 11 septembre 2024</span>
+                    <h3 class="title">Stage -- Algora-Speechi, Lille</h3>
                     <p class="description">
-                        Server<br>
+                        développement python<br>
+                        revus de code<br>
+                        rédaction de fiche technique<br>
                     </p>
                 </div>
             </div>
