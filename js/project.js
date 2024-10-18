@@ -1,3 +1,4 @@
+
 function changeTab(index) {
     // Changement de tab pour la partie d'affichage des onglets
     const tabs = document.querySelectorAll('.tab-header div');

@@ -162,26 +162,27 @@
         <h1 class="name_partie"><strong>Mes projets</strong></h1>
         <div class="tabs">
             <div class="tab-header">
-                <div class="active"  onclick="changeTab(0)">
+                <div class="active" onclick="changeTab(0)">
                     <i></i> Site Auto-ecole
+                </div>
+                <div onclick="changeTab(1)">
+                    <i></i> Démineur
                 </div>
             </div>
             <div class="tab-indicator"></div>
             <div class="tab-body">
-                <div class="project-info">
+                <div class="project-info active">
                     <div class="div-info-project">
-                        <div class="div-info-project">
-                            <div class="button-container">
-                                <button id="myButton">
-                                    <i class="fa-solid fa-question fa-beat-fade"></i>
-                                </button>
-                                <div id="popup" class="popup pop-1">
-                                    <ul>
-                                        <li class="color_orange">HTML</li>
-                                        <li class="color_blue">CSS</li>
-                                        <li class="color_purple">PHP</li>
-                                    </ul>
-                                </div>
+                        <div class="button-container">
+                            <button class="myButton">
+                                <i class="fa-solid fa-question fa-beat-fade"></i>
+                            </button>
+                            <div class="popup pop-1">
+                                <ul>
+                                    <li class="color_orange">HTML</li>
+                                    <li class="color_blue">CSS</li>
+                                    <li class="color_purple">PHP</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -191,6 +192,29 @@
                             <p class="btn-download-type">view</p>
                         </a>
                         <a href="project/site_auto_école.zip">
+                            <p class="btn-download-type">.ZIP</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <div class="div-info-project">
+                        <div class="button-container">
+                            <button class="myButton">
+                                <i class="fa-solid fa-question fa-beat-fade"></i>
+                            </button>
+                            <div class="popup pop-1">
+                                <ul>
+                                    <li class="color_yellow">Python</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="image/pioche.png" class="picture_project" alt="mon nouveau projet"/>
+                    <div class="icon-project">
+                        <a href="...">
+                            <p class="btn-download-type">view</p>
+                        </a>
+                        <a href="...">
                             <p class="btn-download-type">.ZIP</p>
                         </a>
                     </div>
